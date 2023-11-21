@@ -1,0 +1,79 @@
+.contenedor{
+    border: solid 1px #83b6d8;
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+    font-size: 30px;
+    padding: 90px;
+    text-align: center;
+    min-height: 100vh;
+    box-shadow: 0px 0px 10px #B8E5E7;
+    color: #555;
+    font-family: Georgia, serif;
+    background: rgb(205,255,216);
+    background: linear-gradient(90deg, rgba(205,255,216,1) 18%, rgba(148,185,255,1) 79%);
+}
+
+.titulo{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.caja-correo,.caja-password,.caja-nombre{
+    font-size: 25px;
+    width: 100%;
+    border: transparent;
+    border-bottom: solid 3px #ffffff;
+    outline:none;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    font-family: Georgia, serif;
+    color: #83919C;
+   
+}
+.agrupador-correo, .agrupador-password, .agrupador-nombre{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.agrupador-boton{
+    margin-top: 50px;
+    
+}
+
+.otros-botones{
+    margin-top: 50px;
+    text-align: center;
+    color: #004AAD;
+    font-size: 20px;
+}
+
+.link-registro, .link-password{
+    color: #004AAD;
+    display: block;
+}
+
+.link-registro:visited{
+    color: #004AAD;
+}
+                
+    .boton-registrarme, .boton-ingresar, .boton-aceptar, .boton-regresar{
+    width: 200px;
+    color: white;
+    height: 70px;
+    background-color:#5A94D0;
+    padding: 8px;
+    border-radius: 18px;
+    border: none;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
